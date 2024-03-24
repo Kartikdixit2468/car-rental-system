@@ -1,0 +1,112 @@
+.car-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.car-details {
+  padding: 40px !important;
+  max-width: 60vw;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: grey;
+  border-radius: 20px;
+}
+.book-form{
+    margin-right: 10% !important;
+    margin: 10px;
+    min-height: 40vh;
+    width: 40%;
+    /* border-radius: 20px; */
+    min-height: 60vh;
+    padding: 30px !important;
+}
+.car-image {
+  padding: 5px !important;
+  border: 15px solid black;
+  border-radius: 12px;
+}
+.car-image img {
+  height: 260px;
+}
+.text-car div {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.text-car div div h3 {
+  color: red;
+  font-weight: 600;
+}
+.text-car {
+  display: flex;
+}
+.book-btn {
+  padding: 12px !important;
+}
+.card {
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-header {
+  background-color: #ffffff;
+  color: #333;
+  text-align: left;
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.card-header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.card-body {
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.card-footer {
+  text-align: left;
+  padding: 15px;
+}
+
+.book-btn {
+  padding: 10px 20px;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-btn:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 90%;
+  }
+}

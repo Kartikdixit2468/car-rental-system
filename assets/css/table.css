@@ -1,0 +1,77 @@
+body {
+  min-height: 80vh !important;
+}
+.booking-table {
+  margin: 120px 10px 120px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.booking-table .rows {
+  max-width: 90vw;
+  width: 90vw;
+  /* border: 4px solid black; */
+}
+.btn{
+    padding: 5px !important;
+}
+
+body .col-md-6 img {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  padding: 70px;
+
+  /*transform: rotate(90deg);*/
+  /*border:3px solid rgba($secondary-color,0.5);*/
+
+  background: rgba(0, 0, 0, 0.03);
+}
+body img + p {
+  font-family: "Unica One", helvetica;
+  font-size: 1.7rem;
+
+  padding: 15px;
+
+  text-align: center;
+  letter-spacing: 10px;
+
+  color: #eceff1;
+  background: rgba(0, 0, 0, 0.03);
+}
+body img + p:hover {
+  color: #b71c1c;
+}
+body {
+  line-height: 1.8;
+  color: #818181;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+  .btn-lg {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+}

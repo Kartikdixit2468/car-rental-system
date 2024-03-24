@@ -1,0 +1,12 @@
+.sign-up-component{
+    background-image: url('../img/reg.jpeg') !important;
+    background-position: center;
+    background-size: cover;
+    content: "" !important;
+  }
+  #signup-form{
+    margin-top: 50px !important;
+  }
+  .form-check{
+    min-width: 4% !important;
+  }
